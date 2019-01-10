@@ -1,3 +1,18 @@
-h2 {
-  font-display: black;
+.panel-warning {
+  border-color: #ddcef2;
+}
+.panel-warning > .panel-heading {
+  color: #000000;
+  background-color: #ddcef2;
+  border-color: #ddcef2;
+}
+.panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddcef2;
+}
+.panel-warning > .panel-heading .badge {
+  color: #000000;
+  background-color: #ddcef2;
+}
+.panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddcef2;
 }
