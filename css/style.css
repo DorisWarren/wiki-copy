@@ -16,3 +16,9 @@
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddcef2;
 }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
